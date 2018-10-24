@@ -1,0 +1,45 @@
+.container-video{
+    background-color: #E3E3E3;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inside{
+display: flex;
+margin: 80px 160px;
+}
+
+.inside > div {
+    margin: 0 50px;;
+}
+
+form{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+input{
+    border-radius: 12px 0px 0px 12px;
+    border: 1px solid #909090;
+    box-sizing: border-box;
+    height: 45px;
+    width: 260px;
+}
+
+#button{
+    border-radius: 0px 12px 12px 0px;
+    border: 1px solid #909090;
+    box-sizing: border-box;
+    height: 45px;
+    width: 100px;
+    background-color: #3ded34;
+    color: white;
+}
+
+
+
+.video{
+    border-radius: 50px;
+}
